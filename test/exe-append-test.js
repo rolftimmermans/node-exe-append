@@ -4,6 +4,14 @@ var fs = require("fs")
 var exe = require("../lib/exe-append")
 
 describe("append", function() {
+  describe("with non buffer", function() {
+    it("should throw error if buffer is too short", function() {
+      assert.throws(function() {
+        exe.append("foo", "bar")
+      }, "Executable should be a buffer")
+    })
+  })
+
   describe("to bad executable", function() {
     it("should throw error if buffer is too short", function() {
       var binary = new Buffer(10)
