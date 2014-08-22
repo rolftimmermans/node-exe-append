@@ -5,7 +5,7 @@
   },
 
   "name": "exe-append",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Append arbitrary data to Windows executables without breaking digital signatures",
   "homepage": "https://github.com/rolftimmermans/node-exe-append",
   "license": "MIT",
