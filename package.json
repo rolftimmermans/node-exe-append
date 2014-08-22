@@ -1,0 +1,27 @@
+{
+  "author": {
+    "name": "Rolf W. Timmermans",
+    "email": "rolftimmermans@voormedia.com"
+  },
+
+  "name": "exe-append",
+  "version": "0.0.1",
+  "description": "Append arbitrary data to Windows executables without breaking digital signatures",
+  "homepage": "https://github.com/rolftimmermans/node-exe-append",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rolftimmermans/node-exe-append.git"
+  },
+
+  "main": "lib/exe-append.js",
+
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --reporter list"
+  },
+
+  "devDependencies": {
+    "chai": "1.x",
+    "mocha": "1.x"
+  }
+}
